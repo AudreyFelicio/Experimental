@@ -1,7 +1,7 @@
 .carousel {
     position: relative;
-    height: 600px;
-    width: 80%;
+    height: 500px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@
     list-style: none;
     position: relative;
     height: 100%;
-    transition: transform 250ms ease-in;
+    transition: transform 500ms ease-in;
 }
 
 .carousel__slide {
@@ -44,11 +44,13 @@
 }
 
 .carousel__button--left{
-    left: -40px;
+    z-index: 1;
+    left: 5px;
 }
 
 .carousel__button--right{
-    right: -40px;
+    right: 5px;
+    z-index: 1;
 }
 
 .carousel__button img{

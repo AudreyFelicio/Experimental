@@ -94,7 +94,7 @@ class Carousel extends Component {
                 moveToSlide(track, currentSlide, targetSlide);
                 //move dot
                 updateDots(currentDot, targetDot);
-                
+
                 hideShowArrows(slides, prevButton, nextButton, targetIndex);
             }
         })
